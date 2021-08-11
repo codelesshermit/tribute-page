@@ -1,0 +1,45 @@
+html{
+    font-size: 62.5%;
+  }
+  body{
+    font-size: 1.6rem;
+    font-family: consolas; 
+    background-color: #ECEAE9;
+    margin:0;
+  }
+  #main{
+    width:87.5%;
+    margin: auto; 
+    color:#454545;
+    background-color: #CAA26B;
+    padding:1.5rem;
+  }
+  #title{
+    color:#1B150F;
+  }
+  img{
+   display: block;
+   width: 82.5vw;
+    height: 75vh;
+    margin: auto;
+    
+  }
+  #img-caption{
+    width:75%;
+    margin: auto;
+    text-align: center;
+  }
+  a{
+    color:#74779C;
+    font-weight: bold;
+  }
+  
+  @media (max-width:600px){
+    #main{
+      margin: 0;
+    }
+    img{
+      display: block;
+      max-width: 100%;
+    }
+  }
